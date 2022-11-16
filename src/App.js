@@ -1,15 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
-
 function App() {
-  return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">Hello Tailwind!</h1>
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-      </header>
-    </div>
-  );
+    return (
+        <div className="bg-amber-200 h-screen">
+            <div className="m-auto w-[25em] pt-8">
+                <h1>Reaktodo</h1>
+                <p>A simple and yet eventually over-engineered todo app</p>
+                <input type="text" placeholder="Walk the dog"/>
+                <div> list of not completed yet</div>
+                <div> list of done</div>
+            </div>
+        </div>
+    );
 }
 
 export default App;
